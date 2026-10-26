@@ -1,0 +1,5 @@
+.env
+*.pem
+*-key.pem
+.test-certs/
+node_modules/

@@ -1,0 +1,16 @@
+{
+  "name": "devin-byok",
+  "version": "1.0.0",
+  "description": "Local MITM gateway that turns Devin Desktop into a Bring-Your-Own-Key client (standalone extraction of jornlin/devin-model-pro proxy-scripts, MIT)",
+  "type": "module",
+  "main": "src/hybrid-server.js",
+  "scripts": {
+    "setup": "node setup-cert.mjs",
+    "start": "node src/hybrid-server.js",
+    "test": "node test-e2e.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
